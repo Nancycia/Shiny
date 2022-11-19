@@ -1,13 +1,18 @@
 # Shiny
 #### Group 7 Author: "Lintong Li, Ruiyi Feng, Hsueh-Pin Liu, Weixiao Li"
 
-#### **Introduction**
+#### **Dataset**
 
-This is the report which is aimed at analyzing the most common words
-from IMDB reviews, and then trying to estimate the types of movies among
-these reviews.
+This is the simple shiny app with WICKED FREE WIFI LOCATIONS dataset, which is the Wicked Free WiFi locations around the City of Boston as determined by the Meraki API.
 
-#### Package Used
+#### Package
 shiny
-
+shinythemes
+geojsonio
+broom
+sf
+osmdata
+ggplot2
+dplyr
+ggnewscale
 
