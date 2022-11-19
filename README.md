@@ -1,9 +1,10 @@
 # Shiny
 #### Group 7 Author: "Lintong Li, Ruiyi Feng, Hsueh-Pin Liu, Weixiao Li"
 
-#### **Dataset**
+#### **Introduction**
 
-This is the simple shiny app with WICKED FREE WIFI LOCATIONS dataset, which is the Wicked Free WiFi locations around the City of Boston as determined by the Meraki API.
+This is the simple shiny app with 3 tabs using WICKED FREE WIFI LOCATIONS datatset.
+This dataset describes data on Wicked Free WiFi locations around the city of Boston as determined by the Meraki API.
 
 #### Package
 shiny
