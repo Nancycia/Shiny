@@ -7,12 +7,20 @@ This is the simple shiny app with WICKED FREE WIFI LOCATIONS dataset, which is t
 
 #### Package
 shiny
+
 shinythemes
+
 geojsonio
+
 broom
+
 sf
+
 osmdata
+
 ggplot2
+
 dplyr
+
 ggnewscale
 
