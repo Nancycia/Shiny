@@ -4,7 +4,7 @@
 #### **Introduction**
 
 This is the simple shiny app with 3 tabs using WICKED FREE WIFI LOCATIONS datatset.
-This dataset describes data on Wicked Free WiFi locations around the city of Boston as determined by the Meraki API.
+The dataset describes data on Wicked Free WiFi locations around the city of Boston as determined by the Meraki API.
 
 #### Package
 shiny
