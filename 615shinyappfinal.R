@@ -8,12 +8,18 @@ library(ggplot2)
 library(dplyr)
 library(ggnewscale)
 library(mapproj)
+
+#Read csv and geojson file
 wf <- read.csv("https://raw.githubusercontent.com/Nancycia/Shiny_group7/main/Wicked_Free_WiFi_Locations.csv")
 spdf_file <- geojson_read( "https://raw.githubusercontent.com/Nancycia/Shiny_group7/main/ZIP_Codes.geojson",what = "sp")
+
+#Turn into a tidy data frame for plotting
 nwf <- wf%>%
   dplyr::select(lon=device_long,lat=device_lat,group=neighborhood_name,id=neighborhood_id)
 stats_df <- as.data.frame(spdf_file)
 spdf_file <- tidy( spdf_file,region="ZIP5" )
+
+#Select different neighborhood name
 p <- unique(wf[4])
 p1 <- p$neighborhood_name
 
