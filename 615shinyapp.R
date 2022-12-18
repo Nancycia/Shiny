@@ -76,8 +76,8 @@ ui <-
                       fluidPage(
                         selectInput("stop1", "From:", From),
                         selectInput("stop2", "To:", To),
-                        checkboxGroupInput("season","Season?",Season),
-                        checkboxGroupInput("weekday","What day?",Weekday),
+                        checkboxGroupInput("season","Which season you prefer?",Season),
+                        checkboxGroupInput("weekday","Which day you would like to go?",Weekday),
                         leafletOutput("map2"))))
 
 server <- function(input, output) {
